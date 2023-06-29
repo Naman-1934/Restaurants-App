@@ -1,2 +1,2 @@
-# Restaurants-App
+# Naman's Restaurant
 Restaurants Website
