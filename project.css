@@ -1,0 +1,432 @@
+.left{
+    display: flex;
+    position: absolute;
+    margin: 10x 20px;
+}
+.left img{
+    display: flex;
+    position: relative;
+    margin-left: 85px;
+    height: 130px;
+    width: 150px;
+    margin-top: -20px;
+}
+.mid{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    padding-left: 450px;
+}
+.mid .menu{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    left: -100px;
+}
+.menu:hover{
+    color: red;
+}
+.mid .menu1{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.menu1:hover{
+    color: red;
+}
+.mid .menu2{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.menu2:hover{
+    color: red;
+}
+.mid .menu3{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.menu3:hover{
+    color: red;
+}
+.mid .menu4{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.menu4:hover{
+    color: red;
+}
+.right {
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    margin-left:1200px;
+    padding-left: 30px;
+}
+.right button{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+}
+.right button a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+.main{
+    background-image: url('food\ image.jpg');
+    background-position: center top;
+    background-size: 1400px;
+    height: 500px;
+    /* justify-content: center;
+    align-content: center; */
+    width:1470px;
+    margin-top: 70px;
+}
+.main h1{
+    display: flex;
+    
+    position: absolute;
+    margin: 80px 100px;
+    padding: 15px 10px;
+
+}
+.main h2{
+    display: flex;
+    position: absolute;
+    margin: 130px 100px;
+    padding: 15px 10px;
+}
+.main img{
+    display:flex ;
+    position: absolute;
+    margin: 180px 100px;
+    padding: 15px 10px;
+    width: 300px;
+    height: 300px;
+}
+.explore{
+    display: flex;
+    position: absolute;
+    margin: 20px 45px;
+
+}
+
+.shop{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 100px 45px;
+    padding: 10px 10px;
+    border: 2px solid gray;
+}
+.shop img{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 110px;
+    padding: 5px 0px;
+}
+.shop a{
+    display: flex;
+    position: absolute;
+    padding: 70px 25px;
+    margin-top: 85px;
+    text-decoration: none;
+}
+.fastdelivery{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 100px 380px;
+    padding: 10px 10px;
+    border: 2px solid gray;
+}
+.fastdelivery img{
+    display: flex;
+    position: absolute;
+    width: 140px;
+    height: 115px;
+    left: 30px;
+    padding: 5px 15px;
+}   
+.fastdelivery a{
+    display: flex;
+    position: absolute;
+    padding: 70px 20px;
+    margin-top: 85px;
+    left: 30px;
+    text-decoration: none;
+}
+.birthday{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 100px 750px;
+    padding: 10px 10px;
+    border: 2px solid gray;
+}
+.birthday img{
+    display: flex;
+    position: absolute;
+    width: 140px;
+    height: 120px;
+    left: 30px;
+    padding: 0px 15px;
+}  
+.birthday a{
+    display: flex;
+    position: absolute;
+    padding: 70px 20px;
+    margin-top: 85px;
+    left: 30px;
+    text-decoration: none;
+}
+.catering{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 100px 1130px;
+    padding: 10px 10px;
+    border: 2px solid gray;
+}
+.catering img{
+    display: flex;
+    position: absolute;
+    width: 140px;
+    height: 120px;
+    left: 30px;
+    padding: 0px 15px;
+}  
+.catering a{
+    display: flex;
+    position: absolute;
+    padding: 70px 45px;
+    margin-top: 85px;
+    left: 30px;
+    text-decoration: none;
+}
+.quotes{
+    display: flex;
+    position: absolute;
+    margin: 400px 450px;
+    
+}
+.quotes h3{
+    display: flex;
+    position: absolute;
+    margin: 0px 20px;
+    width: 600px;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.quotes p{
+    display: flex;
+    position: absolute;
+    margin: 80px 200px;
+    padding: 5px 5px;
+    width: 200px;
+}
+.quotes1{
+    display: flex;
+    position: absolute;
+    margin: 580px 450px;
+    
+}
+.quotes1 h3{
+    display: flex;
+    position: absolute;
+    margin: 0px 30px;
+    width: 600px;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.quotes1 p{
+    display: flex;
+    position: absolute;
+    margin: 110px 230px;
+    padding: 5px 5px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.franchise{
+    display: flex;
+    position: absolute;
+    margin: 800px 45px;
+    padding: 5px 5px;
+}
+.franchise h2{
+    display: flex;
+    position: absolute;
+    margin: 10px 10px;
+    width: 800px;
+}
+.franchise pre{
+    display: flex;
+    position: absolute;
+    margin: 70px 30px;
+    font-size: 18px;
+    padding: -10px -10px;
+    width: 1400px;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    margin: 1200px -110px;
+}
+.name{
+    display: flex;
+    position: relative;
+    top: -20px;
+    left: 845px;
+    width: 100px;
+}
+.name p{
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+    left: -640px;
+}
+.name h2{
+    display: flex;
+    position: absolute;
+    margin: 20px -150px;
+    width: 300px;
+
+}
+.reachus {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    padding: 60px;
+    left: 40px;
+}
+.reachus pre{
+    display: flex;
+    position: relative;
+    margin-top: -11px;
+    padding: 10px;
+    font-size: 15px;
+}
+.gmail{
+    display: flex;
+    position: absolute;
+    margin-top: 45px;
+}
+.gmail pre{
+    display: flex;
+    position: relative;
+    margin-top:  -11px;
+    font-size: 15px;
+}
+.location{
+    display: flex;
+    position: absolute;
+    margin-top: 45px;
+}
+.location pre{
+    display: flex;
+    position: relative;
+    width: 300px;
+    margin-top: -10px;
+    left: 5px;
+    font-size: 15px;
+}
+p{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+.company{
+    display: flex;
+    position: relative;
+    left: 150px;
+    top: 60px;
+}
+.company div{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    left: -70px;
+}
+.company li{
+    display: flex;
+    position: relative;
+    margin-top: 90px;
+    left: -116px;
+}
+.company ul{
+    display: flex;
+    position: relative;
+    margin-top: 135px;
+    left: -205px;
+}
+.legal{
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    left: 150px;
+}
+.legal li{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    left: -40px;
+}
+.legal div{
+    display: flex;
+    position: relative;
+    margin-top: 95px;
+    left: -144px;
+}
+.legal ul{
+    display: flex;
+    position: relative;
+    margin-top: 140px;
+    left: -308px;
+}
+.quicklink{
+    display: flex;
+    position: relative;
+    left: 150px;
+    margin-top: 60px;
+}
+.quicklink div{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    left: -80px;
+}
+.quicklink li{
+    display: flex;
+    position: relative;
+    margin-top: 95px;
+    left: -160px;
+}
+.center{
+    display: flex;
+    position: relative;
+    margin-top: 1500px;
+    justify-content: center;
+    align-items: center;
+}
