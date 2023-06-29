@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Nearby Shop Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .home{
+      display: flex;
+      position: relative;
+      margin: 1px 25px;
+    }
+    .home a{
+      display: flex;
+      position: relative;
+      margin: 1px 1px;
+      text-decoration: none;
+    }
+    .home a:hover{
+      color: red;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+
+    .shop-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px;
+    }
+
+    .shop-list li {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .shop-name {
+      font-weight: bold;
+    }
+
+    .shop-address {
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="home">
+    <a href="index.html">Home</a>
+</div>
+  <header>
+    <h1>Nearby Shops</h1>
+  </header>
+  
+  <div id="map"></div>
+
+  <ul class="shop-list">
+    <li>
+      <div class="shop-name">naman's Restaurants </div>
+      <div class="shop-address">5-Somanath, Vadodara, India</div>
+    </li>
+    <li>
+      <div class="shop-name">naman's Restaurants </div>
+      <div class="shop-address">11 Alexander Road, London</div>
+    </li>
+    <li>
+      <div class="shop-name">naman's Restaurants </div>
+      <div class="shop-address">46 Rose Street, Tremont, Victoria,  Australia</div>
+    </li>
+  </ul>
+
+  <script>
+    function initMap() {
+      var mapOptions = {
+        center: { lat: 40.7128, lng: -74.0060 },
+        zoom: 12
+      };
+
+      var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+      // Add markers for each shop
+      var shops = [
+        { name: "naman's Restaurants", address: '3-Somanath, Vadodara-09, India', lat: 22.25696, lng: 73.2176 },
+        { name: "naman's Restaurants", address: '11 Alexander Road, London, SW19 2BN', lat: 21.170240, lng: 72.831062 },
+        { name: "naman's Restaurants", address: '7-Tarsali, Vadodara-09, India', lat: 23.033863, lng: 72.585022 }
+      ];
+
+      shops.forEach(function(shop) {
+        var marker = new google.maps.Marker({
+          position: { lat: shop.lat, lng: shop.lng },
+          map: map,
+          title: shop.name
+        });
+      });
+    }
+    
+    </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
